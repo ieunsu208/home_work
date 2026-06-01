@@ -1,0 +1,55 @@
+/* 상단바 */
+header {
+  background-color: #dadada;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  background-color: antiquewhite;
+  display: flex;
+  gap: 28px;
+}
+.nav-box {
+  border-radius: 2px;
+  background: #CFCFCF;
+}
+.nav-box01 {
+  width: 92px;
+  height: 12px;
+}
+.nav-box02 {
+  width: 112px;
+  height: 12px;
+}
+.nav-box03 {
+  width: 148px;
+  height: 12px;
+}
+.nav-box04 {
+  width: 72px;
+  height: 12px;
+}
+.nav-box05 {
+  width: 88px;
+  height: 12px;
+}
+h1 {
+  background-color: aqua;
+}
+.user-box {
+  background-color: pink;
+}
+
+/* 메인 컨텐츠 */
+main {
+  background-color: #bdbdbd;
+  height: 400vh;
+}
+
+/* 하단바 */
+footer {
+  background-color: #a2a2a2;
+  height: 68px;
+}
