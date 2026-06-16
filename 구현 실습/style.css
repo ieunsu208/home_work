@@ -1,0 +1,161 @@
+/* ---- 상단바 ---- */
+header{
+  border: 1px solid red;
+}
+
+/* ---- 메인 컨텐츠 ---- */
+main {
+  border: 1px solid red;
+  padding-top: 124px; padding-bottom: 124px;
+  padding-left: 80px; padding-right: 80px;
+}
+
+/* ul-nav / 섹션 상단 부분 */
+.ul-nav {
+  border: 1px solid orange;
+  padding-bottom: 65px; padding-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  border: 1px solid green;
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px; /* 120% */
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}                 
+.view-all {
+  border: 1px solid green;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+
+/* amp-swiper / 섹션 하단 부분 */
+.amp-swiper {
+  border: 1px solid orange;
+  display: flex;
+  gap: 40px;
+
+}
+
+/* best-product-list01 / 리스트 */
+.best-product-list01 {
+  border: 1px solid green;
+  flex-grow: 1;
+}
+
+/* product-img / 이미지 박스 */
+.product-img {
+  /* border: 1px solid blue; */
+  background: #EBEBEB;
+  height: 410px;
+}
+
+/* tile-body-footer / 리스트 텍스트 박스 */
+.tile-body-footer {
+  border: 1px solid blue;
+}
+.tile-body01 {
+  border: 1px solid red;
+  padding-top: 40px; padding-bottom: 40px;
+}
+.product-name {
+  border: 1px solid green;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+.tile-body02 {
+  border: 1px solid red;
+  padding-bottom: 40px;
+}
+.product-text {
+  border: 1px solid green;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  text-transform: capitalize;
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+.tile-body03 {
+  border: 1px solid red;
+  padding-top: 14px; padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-price {
+  border: 1px solid green;
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px; /* 106.25% */
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+.best-ml {
+  border: 1px solid orange;
+  display: flex;
+  gap: 16px;
+}
+.best-30ml {
+  border: 1px solid blue;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px; /* 121.429% */
+  text-decoration-line: underline;
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+.best-60ml {
+  border: 1px solid blue;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px; /* 121.429% */
+
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+
+/* best-pro-btn / 버튼 */
+.best-pro-btn {
+  border: 1px solid green;
+  padding-top: 12px; padding-bottom: 12px;
+  width: 100%;
+  cursor: pointer;
+  color: #212529;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px; /* 150% */
+  letter-spacing: 0.06px;
+
+  /* text-transform: capitalize; */
+  /* font-family: Raleway; */
+  /* font-style: normal; */
+}
+
+/* ---- 하단바 ---- */
+footer {
+  border: 1px solid red;
+}
