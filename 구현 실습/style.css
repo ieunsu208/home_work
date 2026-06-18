@@ -1,46 +1,33 @@
 /* ---- 상단바 ---- */
-header{
-  border: 1px solid red;
-}
 
 /* ---- 메인 컨텐츠 ---- */
 main {
-  border: 1px solid red;
   padding-top: 124px; padding-bottom: 124px;
   padding-left: 80px; padding-right: 80px;
 }
 
 /* ul-nav / 섹션 상단 부분 */
 .ul-nav {
-  border: 1px solid orange;
   padding-bottom: 65px; padding-top: 65px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #E1DED9;
 }
 .section-title {
-  border: 1px solid green;
   color: #333;
   font-size: 28px;
   font-weight: 700;
   line-height: 33.6px; /* 120% */
-
-  /* font-family: Raleway; */
-  /* font-style: normal; */
 }                 
 .view-all {
-  border: 1px solid green;
   color: #333;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px; /* 150% */
-
-  /* font-family: Raleway; */
-  /* font-style: normal; */
 }
 
 /* amp-swiper / 섹션 하단 부분 */
 .amp-swiper {
-  border: 1px solid orange;
   display: flex;
   gap: 40px;
 }
@@ -50,11 +37,8 @@ main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  flex-basis: 0;
 }
-.best-product-list01 {border: 4px solid red; }
-.best-product-list02 {border: 4px solid rgb(255, 117, 117); }
-.best-product-list03 {border: 4px solid rgb(175, 28, 28); }
-.best-product-list04 {border: 4px solid rgb(69, 11, 11); }
 
 /* product-img / 이미지 박스 */
 .product-img {
@@ -62,37 +46,55 @@ main {
   height: 410px;
 }
 /* 텍스트 박스 */
-.best-pruduct-name {
-  border: 1px solid orange; 
+.best-pruduct-name > a {
   padding-top: 40px; padding-bottom: 42px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
 }
 .best-product-subhead {
-  border: 1px solid orange;
   padding-bottom: 40px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  border-bottom: 1px solid #E1DED9;
 }
 .best-price-volume {
-  border: 1px solid orange;
   padding-top: 14px; padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
 }
 .best-price {
-  border: 1px solid orange;
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px; /* 106.25% */
 }
 .best-volume-ml {
-  border: 1px solid orange;
   display: flex;
   gap: 16px;
 }
 .best-volume-30ml {
-  border: 1px solid orange;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px; /* 121.429% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 .best-volume-60ml {
-  border: 1px solid orange;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px; /* 121.429% */
 }
 /* best-pro-btn / 버튼 */
 .best-pro-btn {
-  /* border: 1px solid orange; */
+  border: 1px solid #E1DED9;
   background-color: #fff;
   color: #212529;
   padding-top: 12px; padding-bottom: 12px;
@@ -105,6 +107,3 @@ main {
 }
 
 /* ---- 하단바 ---- */
-footer {
-  border: 1px solid red;
-}
