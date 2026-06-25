@@ -1,0 +1,45 @@
+/* ---- 상단바 ---- */
+header {
+  border: 1px solid #000;
+}
+
+/* -- popup / 팝업 -- */
+.popup {
+  background-color: #E8E8E8;
+  padding-top: 12px; padding-bottom: 12px;
+  text-align: center;
+}
+
+/* -- top-bar / 탑바 -- */
+.top-bar {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px; padding-bottom: 16px;
+  padding-right: 20px; padding-left: 20px;
+}
+
+/* menu01 / 네비게이션 */
+.menu01 {
+  border: 1px solid orange;
+  width: 388px;
+}
+.menu01-ul {
+  display: flex;
+}
+
+/* logo-box / 로고 */
+.logo-box {
+  border: 1px solid orange;
+}
+
+/* user-menu / 사용자 메뉴 */
+.user-menu {
+  border: 1px solid orange;
+  width: 388px;
+  /* text-align: end; */
+}
+.user-menu-ul {
+  display: flex;
+  justify-content: end;
+}
